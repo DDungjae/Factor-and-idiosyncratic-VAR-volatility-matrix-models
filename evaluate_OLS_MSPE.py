@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore', category=FutureWarning)
 period_1 = range(751, 1248)
 period_2 = range(751,999)
 period_3 = range(999, 1248)
-"""
+
 # Truncation function
 def truncation_function(x, omega):
     return np.where(np.abs(x) <= omega, x, np.sign(x) * omega)
@@ -167,7 +167,7 @@ results = Parallel(n_jobs=n_jobs)(
 
 for result in results:
     print(result)
-"""
+
 def qlike(M1, M2):
     return np.log(np.linalg.det(M1))+np.linalg.trace(np.linalg.inv(M1)@M2)
 
@@ -292,5 +292,6 @@ plt.grid(True, alpha=0.3)
 plt.tight_layout()
 plt.savefig('ols_mspe_by_day.png', dpi=300)
 plt.show()
+
 
 print("MSPE plot saved as 'ols_mspe_by_day.png'") 
