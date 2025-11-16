@@ -47,7 +47,7 @@ Implements **OLS-based VAR** for the factor component and simple averaging for i
 
 ---
 
-## 📈 Workflow Overview
+## Workflow Overview
 
 ### 1. Construct High-Frequency Log Returns
 `log_return.py`
