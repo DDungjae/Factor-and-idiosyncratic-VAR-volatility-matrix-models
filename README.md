@@ -10,6 +10,7 @@ This repository focuses on understanding the above paper by implementing its cor
 
 - integrating variant or generalized factor structures into the FIVAR framework.
 
+
 Paper Information
 
 Title:
