@@ -1,1 +1,30 @@
 # Factor-and-idiosyncratic-VAR-volatility-matrix-models
+
+This project containst the understanding of following paper. 
+
+Paper Information
+
+Title:
+Factor and Idiosyncratic VAR Volatility Matrix Models for Heavy-Tailed High-Frequency Financial Observations
+
+Authors:
+
+Minseok Shin (POSTECH)
+
+Donggyu Kim (University of California, Riverside)
+
+Yazhen Wang (University of Wisconsin–Madison / NSF)
+
+Jianqing Fan (Princeton University)
+
+Journal:
+Journal of Econometrics, Volume 252, Part A, 2025
+https://www.sciencedirect.com/science/article/abs/pii/S0304407625001836?dgcid=coauthor
+
+This repository focuses on understanding the above paper by implementing its core ideas in code and reproducing its modeling pipeline. It is designed to serve as a foundation for further extensions, including:
+
+experimenting with different robust loss functions,
+
+testing alternative regularization/penalty schemes, and
+
+integrating variant or generalized factor structures into the FIVAR framework.
