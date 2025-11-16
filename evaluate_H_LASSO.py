@@ -13,7 +13,7 @@ period_2 = range(751,999)
 period_3 = range(999, 1248) 
 gics_list = pd.read_csv('gicslist.csv').values[1:, 0]
 
-"""# PSD cone projection function
+# PSD cone projection function
 def project_to_psd_cone(matrix):
   
     # Ensure matrix is symmetric    
@@ -307,7 +307,6 @@ results = Parallel(n_jobs=n_jobs)(
 
 for result in results:
     print(result)
-"""
 # Calculate MSPE
 MSPE_period_1_list = []
 MSPE_period_2_list = []
