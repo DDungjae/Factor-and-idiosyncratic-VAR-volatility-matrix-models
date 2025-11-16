@@ -8,14 +8,10 @@ Title:
 Factor and Idiosyncratic VAR Volatility Matrix Models for Heavy-Tailed High-Frequency Financial Observations
 
 Authors:
-
-Minseok Shin (POSTECH)
-
-Donggyu Kim (University of California, Riverside)
-
-Yazhen Wang (University of Wisconsin–Madison / NSF)
-
-Jianqing Fan (Princeton University)
+- Minseok Shin (POSTECH)
+- Donggyu Kim (University of California, Riverside)
+- Yazhen Wang (University of Wisconsin–Madison / NSF)
+- Jianqing Fan (Princeton University)
 
 Journal:
 Journal of Econometrics, Volume 252, Part A, 2025
